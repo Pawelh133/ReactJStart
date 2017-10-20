@@ -1,12 +1,18 @@
 {
-    "plugins": [
-      ["module-resolver", {
-        "root": ["./src"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": [
+          "./src"
+        ],
         "alias": {
-          "reducers": "./reducers",
-          "layouts": "./layouts",
-          "components": "./components"
+          "modules": "./modules",
+          "components": "./components",
+          "store": "./store",
+          "containers": "./containers"
         }
-      }]
+      }
     ]
-  }
+  ]
+}
