@@ -9,7 +9,9 @@
         "alias": {
           "modules": "./modules",
           "components": "./components",
+          "constants": "./constants",
           "store": "./store",
+          "reducers": "./reducers",
           "containers": "./containers"
         }
       }
